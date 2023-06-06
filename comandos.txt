@@ -1,0 +1,29 @@
+-  mkdir 20230605-RodrigoHuertos
+-  cd 20230605-RodrigoHuertos
+-  git init
+-  git remote add origin git@github.com:XxZARKx/20230605-RodrigoHuertos.git
+-  git remote -v
+-  touch comandos.txt main.js index.html
+-  git add .
+-  git commit -m "commit 01 de Rodrigo Huertos"
+-  git checkout -b main
+-  git push origin main
+-  git branch feature
+-  git checkout feature
+-  mkdir Hardware Software SeguridadInformatica
+-  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+-  ls -R
+-  git status
+-  git add .
+-  git status
+-  git commit -m "commit 02 de Rodrigo Huertos"
+-  git push origin feature
+-  git checkout main
+-  ls
+-  mv main.js resumenHardware.txt
+-  mv index.html resumenSoftware.txt
+-  ls
+-  nano resumenSoftware.txt
+-  cat resumenSoftware.txt
+-  nano resumenHardware.txt
+-  cat resumenHardware.txt
